@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>John Doe | Professional Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f9fafb;
+      color: #1f2937;
+    }
+
+    header {
+      background-color: #1e3a8a;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      background-color: white;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      z-index: 1000;
+      display: flex;
+      justify-content: center;
+      padding: 15px 0;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #1e40af;
+      font-weight: 600;
+      transition: 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #f59e0b;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+      animation: fadeIn 0.6s ease forwards;
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    section h2 {
+      font-size: 1.6rem;
+      color: #2563eb;
+      border-left: 5px solid #3b82f6;
+      padding-left: 12px;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+      line-height: 1.7;
+    }
+
+    a {
+      color: #2563eb;
+    }
+
+    .project-card {
+      margin-top: 10px;
+      padding: 15px;
+      border: 1px solid #d1d5db;
+      border-radius: 8px;
+      background-color: #f3f4f6;
+    }
+
+    footer {
+      background-color: #1e3a8a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        flex-wrap: wrap;
+        padding: 10px;
+      }
+
+      nav a {
+        margin: 8px 12px;
+      }
+
+      header h1 {
+        font-size: 2rem;
+      }
+
+      section {
+        margin: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  
+  <header>
+    <h1>Siva Sankar.G</h1>
+    <p>Front end developer</p>
+  </header>
+
+
+  <nav>
+    <a href="#summary">Summary</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- CONTENT SECTIONS -->
+  <main>
+    <section id="summary">
+      <h2>Skills Summary</h2>
+      <p>Seeking a challenging position in web development role and learn new information every day .</p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>B.Sc. in Computer Science</strong><br>
+              Gobi Arts & Science College-Gobichettipalayam, Tamil Nadu |              
+              Full-time | 2023 to Till.</li>
+<li> <strong>	Higher education (HSC) </strong> <br>
+              St. Paul’s Matriculation Higher Secondary School-    
+              Gobichettipalayam, Tamil Nadu | 
+              State Board | English medium | Scored: 79.8% | 2022 to 2023. </li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>	Front end development (basics) : </strong>HTML,CSS, Javascript.</li>
+<li><strong>Programing language (basics) : </strong>C,C++,Python,Java.</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-card">
+        <strong>Portfolio</strong><br>
+         A portfolio for my colleague  using HTML, CSS. Hosted on GitHub Pages.  
+        <br><a href="https://github.com/S61205/Portfolio1">View Project</a>
+      </div><div class="project-card">
+      <strong>Personal Portfolio</strong><br>
+        Built a mobile-first personal site using HTML, CSS. Hosted on GitHub Pages.  
+        <br><a href="https://github.com/S61205/Portfolio1">View Project</a>
+      </div>
+      <div class="project-card">
+        <strong>Smark Car</strong><br>
+        A Car with voice assistant and auto drunk , petrol leaking detect using C.
+        <br><a href="#">GitHub Repo</a>
+      </div>
+      <div class="project-card">
+        <strong>Website for Petrol Bunk</strong><br>
+         A website which was creates by using only HTML and internal CSS.
+        <br><a href="#">View Project</a>
+      </div>
+    </section>
+
+    <section id="achievements">
+      <h2>Achievements</h2>
+      <ul>
+        <li>Certification of merit (for scoring high marks)</li>
+        <li>Intra-College Science exhibition 2024.(Project Smart Car)</li>
+        <li>Cruces 2024 ( organized inter college meet )</li>
+        <li>Lumina Fest 2025 ( inter college meet conducted by EASC) </li>
+      </ul>
+    </section>
+
+    <section id="certificates">
+      <h2>Certificates</h2>
+      <ul>
+        <li>Value added course in Soft Skill </li>
+        <li>Diploma in C, OOPs in C++ programming -CSC</li>
+        
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:sivasankar05raj@gmail.com">sivasankar05raj@gmail.com</a></li>
+        <li><strong>Phone:</strong> <a href="tel:+91 6374413860">+91 6374413860</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/g-sivasankar">https://www.linkedin.com/in/g-sivasankar</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/S61205">https://github.com/S61205</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Portfolio</p>
+  </footer>
+
+</body>
+</html>
